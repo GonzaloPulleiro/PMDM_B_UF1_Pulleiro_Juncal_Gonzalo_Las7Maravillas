@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Las 7 Maravillas</string>
+    <string name="welcome">Qué maravilla quieres conocer?</string>
+    <string name="b1">Machu Picchu</string>
+    <string name="b2">Chichén Itzá</string>
+    <string name="b3">Coliseo</string>
+    <string name="b4">Taj Mahal</string>
+    <string name="b5">Petra</string>
+    <string name="b6">Gran Muralla</string>
+    <string name="b7">Cristo Redentor</string>
+    <string name="vista">Ver maravilla</string>
+
+    <string name="machu_picchu">Construída antes del siglo XV, a 80 kilómetros al noroeste del Cusco (Perú),
+    encontramos esta obra maestra de la arquitectura y la ingeniería Inca.
+    \n\nConsta de tres estructuras principales:
+        \n\t- el Intihuatana
+        \n\t- el Templo del Sol
+        \n\t- el Templo de las Tres Ventanas.
+
+        \n\nDeclarada como una de las nuevas siete maravillas del mundo moderno el 7 de julio de 2007.</string>
+
+    <string name="chichen">Fundada hacia el año 250 d.C. es uno de los principales sitios arqueológicos mayas de la
+    península de Yucatán (México).
+    \nVestigio importante y renombrado de la civilización maya.
+
+    \n\nEl 7 de julio de 2007 el Templo de Kukulcán ubicado en Chichén Itzá, fue reconocido como una de las nuevas siete maravillas
+    del mundo moderno.</string>
+
+    <string name="coliseum">Construido entre los años 70 y 80 d.C. era un anfiteatro de la época del Imperio Romano.
+    \nUbicado en el este del Foro Romano.
+    \n\nPoseía un aforo para unos 65000 espectadores. Los más cercanos a la arena eran los de mayor estatus social. A
+    medida que se ascendía, se situaban los estatus inferiores.
+    \n\nSe usó durante casi cinco siglos.
+    \n\nEl Coliseo fue reconocido como una de las nuevas siete maravillas del mundo moderno el 7 de julio de 2007.</string>
+
+    <string name="taj_mahal">Ubicado en la ciudad de Agra (India), fue construido entre 1631 y 1653.
+    \n\nEs un ejemplo destacado de la arquitectura mogol. Combina elementos de las tradiciones arquitectónicas islámicas, persas, turcas e indias.
+    \n\nEstá construido principalmente con mármol blanco. Es reconocido como un símbolo del amor y la belleza.
+    \n\nEl 7 de julio de 2007 pasó a formar parte de las siete maravillas del mundo moderno. </string>
+
+    <string name="petra">Antigua ciudad ubicada en el sur de Jordania, al sureste del Mar Mueto y al este del Golfo de Aqaba.
+    \nFue la capital del Reino Nabateo, antigua civilización árabe entre los siglos IV a.C. y II d.C.
+    \n\nEs conocida por sus impresionantes estructuras talladas en roca. La fachada más famosa es el Tesoro (Al-Khazneh),
+    tallado en una pared de roca y adornado con columnas y esculturas.
+    \n\nDeclarada como una de las nuevas siete maravillas del mundo moderno el 7 de julio de 2007.</string>
+
+    <string name="china">Su construcción comenzó en el siglo III a.C. durante la dinastía Qin, aunque gran parte de la muralla que conocemos hoy
+    fue construida durante la dinastía Ming (1368 -1644).
+    \nConstruída para proteger el imperio chino de las invasiones de tribus nómadas del norte como los mongoles.
+    \n\nSu longitud es de aproximadamente 21200 kilómetros, aunque partes significativas están en ruinas o han desaparecido con el tiempo.
+    \n\nRecibe millones de visitas cada año. Es un símbolo de la grandeza y fortaleza del antiguo imperio chino.</string>
+
+    <string name="cris">Emblemática estatua de Jesucristo ubicada en la cima del cerro Corcovado en Río de Janeiro (Brasil).
+    \nConstruida entre los años 1922 y 1931. Tiene una altura de 30 metros, desde la base serían 38.
+    \nSe ha convertido en un ícono reconocible a nivel mundial y es uno de los principales destinos turísticos de Brasil.
+    \n\nEs una obra maestra arquitectónica y artística, tanto por su belleza visual como por su significado espritual y cultural.
+    \n\nForma parte de las siete maravillas del nuevo mundo desde el 7 de julio de 2007</string>
+  
+
+
+</resources>

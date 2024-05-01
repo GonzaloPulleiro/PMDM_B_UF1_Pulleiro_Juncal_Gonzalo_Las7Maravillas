@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.las7maravillas.InicioFragment"
+        android:label="InicioFragment" >
+        <action
+            android:id="@+id/action_inicioFragment_to_machuPicchuFragment"
+            app:destination="@id/machuPicchuFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_chichenFragment"
+            app:destination="@id/chichenFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_coliseoFragment"
+            app:destination="@id/coliseoFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_tajFragment"
+            app:destination="@id/tajFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_petraFragment"
+            app:destination="@id/petraFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_murallaFragment"
+            app:destination="@id/murallaFragment" />
+        <action
+            android:id="@+id/action_inicioFragment_to_cristoFragment"
+            app:destination="@id/cristoFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/machuPicchuFragment"
+        android:name="com.example.las7maravillas.MachuPicchuFragment"
+        android:label="fragment_machupicchu"
+        tools:layout="@layout/fragment_machupicchu" >
+        <action
+            android:id="@+id/action_machuPicchuFragment_to_mp_img_Fragment"
+            app:destination="@id/mp_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/mp_img_Fragment"
+        android:name="com.example.las7maravillas.mp_img_Fragment"
+        android:label="fragment_mp_img_"
+        tools:layout="@layout/fragment_mp_img_" />
+    <fragment
+        android:id="@+id/chichenFragment"
+        android:name="com.example.las7maravillas.ChichenFragment"
+        android:label="ChichenFragment" >
+        <action
+            android:id="@+id/action_chichenFragment_to_ch_itz_img_Fragment"
+            app:destination="@id/ch_itz_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ch_itz_img_Fragment"
+        android:name="com.example.las7maravillas.ch_itz_img_Fragment"
+        android:label="fragment_ch_itz_img_"
+        tools:layout="@layout/fragment_ch_itz_img_" />
+    <fragment
+        android:id="@+id/coliseoFragment"
+        android:name="com.example.las7maravillas.ColiseoFragment"
+        android:label="ColiseoFragment" >
+        <action
+            android:id="@+id/action_coliseoFragment_to_coliseo_img_Fragment"
+            app:destination="@id/coliseo_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/coliseo_img_Fragment"
+        android:name="com.example.las7maravillas.Coliseo_img_Fragment"
+        android:label="fragment_coliseo_img_"
+        tools:layout="@layout/fragment_coliseo_img_" />
+    <fragment
+        android:id="@+id/tajFragment"
+        android:name="com.example.las7maravillas.tajFragment"
+        android:label="fragment_taj"
+        tools:layout="@layout/fragment_taj" >
+        <action
+            android:id="@+id/action_tajFragment_to_taj_img_Fragment"
+            app:destination="@id/taj_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/taj_img_Fragment"
+        android:name="com.example.las7maravillas.Taj_img_Fragment"
+        android:label="fragment_taj_img_"
+        tools:layout="@layout/fragment_taj_img_" />
+    <fragment
+        android:id="@+id/petraFragment"
+        android:name="com.example.las7maravillas.PetraFragment"
+        android:label="fragment_petra"
+        tools:layout="@layout/fragment_petra" >
+        <action
+            android:id="@+id/action_petraFragment_to_petra_img_Fragment"
+            app:destination="@id/petra_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/petra_img_Fragment"
+        android:name="com.example.las7maravillas.Petra_img_Fragment"
+        android:label="fragment_petra_img_"
+        tools:layout="@layout/fragment_petra_img_" />
+    <fragment
+        android:id="@+id/murallaFragment"
+        android:name="com.example.las7maravillas.MurallaFragment"
+        android:label="fragment_muralla"
+        tools:layout="@layout/fragment_muralla" >
+        <action
+            android:id="@+id/action_murallaFragment_to_muralla_img_Fragment"
+            app:destination="@id/muralla_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/muralla_img_Fragment"
+        android:name="com.example.las7maravillas.Muralla_img_Fragment"
+        android:label="fragment_muralla_img_"
+        tools:layout="@layout/fragment_muralla_img_" />
+    <fragment
+        android:id="@+id/cristoFragment"
+        android:name="com.example.las7maravillas.CristoFragment"
+        android:label="fragment_cristo"
+        tools:layout="@layout/fragment_cristo" >
+        <action
+            android:id="@+id/action_cristoFragment_to_cristo_img_Fragment"
+            app:destination="@id/cristo_img_Fragment"
+            app:popUpTo="@id/inicioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/cristo_img_Fragment"
+        android:name="com.example.las7maravillas.Cristo_img_Fragment"
+        android:label="fragment_cristo_img_"
+        tools:layout="@layout/fragment_cristo_img_" />
+</navigation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="peru">#7FB33B</color>
+    <color name="mexico">#31A8E7</color>
+    <color name="roma">#CBC37E</color>
+    <color name="india">#F5DA07</color>
+    <color name="jordania">#E19C12</color>
+    <color name="china">#F32803</color>
+    <color name="brasil">#E4F312</color>
+</resources>
