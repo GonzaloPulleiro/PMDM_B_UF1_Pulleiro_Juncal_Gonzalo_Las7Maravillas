@@ -19,8 +19,10 @@ Versión del documento:  1.00
 
 ### Concepto
 
-> Aplicación realizada en AndroidStudio con una funcionalidad muy básica. Proporcionar información sencilla sobre las 7 maravillas del mundo moderno, según National Geographic,
+> Aplicación multilingüe realizada en AndroidStudio con una funcionalidad muy básica. Proporcionar información sencilla sobre las 7 maravillas del mundo moderno, según National Geographic,
 junto con una imágen de cada una de ellas.
+
+> 
 
 ### Navegación
 
