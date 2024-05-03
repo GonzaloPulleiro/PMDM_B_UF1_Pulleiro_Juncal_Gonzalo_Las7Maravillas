@@ -30,4 +30,4 @@ En esta pantalla nos encontramos con:
 - Mapamundi, con puntos de colores marcados, intentando dar la localización de las maravillas.
 - Un cuadro de texto que pregunta al usuario que maravilla quiere conocer.
 - 7 botones, representando cada uno de ellos una maravilla.
-![Inicio]("C:\Users\gonza\Desktop\FP\PMDM\Proyectos\App\Inicio.png")
+![Inicio](C:\Users\gonza\Desktop\FP\PMDM\Proyectos\App\Inicio.png)
